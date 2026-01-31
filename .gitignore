@@ -6,6 +6,30 @@ __pycache__/
 # C extensions
 *.so
 
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+s3_host.py
+
+# AWS / secrets
+.aws/
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+
 # Distribution / packaging
 .Python
 build/
