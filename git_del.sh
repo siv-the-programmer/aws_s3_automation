@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+
+#-------------------------------------------------
+# THIS SCRIPT WILL DELETE YOUR FILES AND REMOVE IT 
+# i CREATED A PROMPT TO ASK BEFORE DELETEING 
+
 set -euo pipefail
 
 if [[ $# -lt 2 ]]; then
@@ -29,6 +34,7 @@ echo "  $TARGET"
 echo
 echo "This WILL delete the file/folder locally."
 echo "This CANNOT be undone easily."
+echo "type anything in the console to abort."
 echo
 echo "Type exactly:"
 echo "i want to delete this"
