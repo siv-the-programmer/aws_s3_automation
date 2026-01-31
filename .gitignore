@@ -13,7 +13,7 @@ __pycache__/
 .venv/
 venv/
 s3_host.py
-./sites
+/sites/index.html
 
 
 # AWS / secrets
