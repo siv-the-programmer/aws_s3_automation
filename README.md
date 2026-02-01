@@ -1,4 +1,10 @@
 # Secure S3 + CloudFront Static Site Deployer (Python + boto3)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![AWS IAM](https://img.shields.io/badge/AWS-IAM-orange?logo=amazonaws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&logoColor=white)
+![Boto3](https://img.shields.io/badge/Boto3-AWS%20SDK-yellow)
+![Automation](https://img.shields.io/badge/Focus-Automation-green)
+
 
 This repo is a **free-tier-friendly** static website deployer that:
 
@@ -246,4 +252,5 @@ Uploads ./sites/ to S3, locks bucket private, sets up CloudFront OAC + distribut
 # Quick start
 python3 s3_create.py
 python3 s3_host.py
+
 Put your site in ./sites/ and make sure ./sites/index.html exists.
