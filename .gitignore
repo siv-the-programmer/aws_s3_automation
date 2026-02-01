@@ -12,8 +12,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-s3_host.py
-index.html
 
 
 # AWS / secrets
