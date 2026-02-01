@@ -17,9 +17,11 @@ This repo is a **free-tier-friendly** static website deployer that:
 
 Result: a **secure HTTPS site** on a CloudFront domain, with your S3 bucket kept private.
 
+<img src="pics/pic1.png" width="400" alt="addpic">
+
 ---
 
-## Why this setup (mental model)
+## Why this setup 
 
 - **S3** stores your files (origin).
 - **CloudFront** is the public “front door” (CDN) that serves the site over HTTPS.
@@ -254,3 +256,4 @@ python3 s3_create.py
 python3 s3_host.py
 
 Put your site in ./sites/ and make sure ./sites/index.html exists.
+
