@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>StreamFlix — Mock Landing</title>
+  <meta name="description" content="Mock Netflix-style landing page for hosting showcase." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#">
+        <span class="brand__dot"></span>
+        StreamFlix
+      </a>
+
+      <nav class="nav">
+        <a class="nav__link" href="#trending">Trending</a>
+        <a class="nav__link" href="#popular">Popular</a>
+        <a class="nav__link" href="#plans">Plans</a>
+      </nav>
+
+      <div class="actions">
+        <button class="btn btn--ghost" type="button">Sign in</button>
+        <button class="btn btn--primary" type="button">Join</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__vignette" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <p class="pill">Hosted static demo • HTML + CSS</p>
+
+        <h1 class="hero__title">
+          Unlimited vibes, zero backend.
+        </h1>
+
+        <p class="hero__sub">
+          
+        </p>
+
+        <div class="hero__cta">
+          <button class="btn btn--primary btn--lg" type="button">Start watching</button>
+          <button class="btn btn--ghost btn--lg" type="button">Browse catalog</button>
+        </div>
+
+        <div class="hero__meta">
+          <div class="meta-card">
+            <div class="meta-card__k">Latency</div>
+            <div class="meta-card__v">&lt; 100ms*</div>
+            <div class="meta-card__s">(*in your dreams)</div>
+          </div>
+          <div class="meta-card">
+            <div class="meta-card__k">Deploy</div>
+            <div class="meta-card__v">1 upload</div>
+            <div class="meta-card__s">S3 / CloudFront friendly</div>
+          </div>
+          <div class="meta-card">
+            <div class="meta-card__k">Cost</div>
+            <div class="meta-card__v">Free-ish</div>
+            <div class="meta-card__s">Depends on traffic</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trending" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Trending now</h2>
+          <p class="section__hint">Hover for glow. Scroll sideways on mobile.</p>
+        </div>
+
+        <div class="row">
+          <article class="tile">
+            <div class="tile__poster p1"></div>
+            <div class="tile__info">
+              <div class="tile__title">Midnight Protocol</div>
+              <div class="tile__tag">Sci-Fi • 2026</div>
+            </div>
+          </article>
+          <article class="tile">
+            <div class="tile__poster p2"></div>
+            <div class="tile__info">
+              <div class="tile__title">The Last Commit</div>
+              <div class="tile__tag">Thriller • 4K</div>
+            </div>
+          </article>
+          <article class="tile">
+            <div class="tile__poster p3"></div>
+            <div class="tile__info">
+              <div class="tile__title">Cloud Riders</div>
+              <div class="tile__tag">Action • HDR</div>
+            </div>
+          </article>
+          <article class="tile">
+            <div class="tile__poster p4"></div>
+            <div class="tile__info">
+              <div class="tile__title">Subnet Wars</div>
+              <div class="tile__tag">Drama • New</div>
+            </div>
+          </article>
+          <article class="tile">
+            <div class="tile__poster p5"></div>
+            <div class="tile__info">
+              <div class="tile__title">Lambda Nights</div>
+              <div class="tile__tag">Comedy • 8 eps</div>
+            </div>
+          </article>
+          <article class="tile">
+            <div class="tile__poster p6"></div>
+            <div class="tile__info">
+              <div class="tile__title">S3 Secrets</div>
+              <div class="tile__tag">Mystery • Top 10</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="popular" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Popular on StreamFlix</h2>
+          <p class="section__hint">A grid section to show layout variety.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <div class="card__poster c1"></div>
+            <div class="card__body">
+              <h3 class="card__title">Zero Downtime</h3>
+              <p class="card__text">A love story between caching and your wallet.</p>
+              <div class="card__meta">
+                <span class="badge">HD</span>
+                <span class="badge badge--muted">Cloud</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__poster c2"></div>
+            <div class="card__body">
+              <h3 class="card__title">Edge of Tomorrowland</h3>
+              <p class="card__text">CDN drama with suspiciously low latency.</p>
+              <div class="card__meta">
+                <span class="badge">4K</span>
+                <span class="badge badge--muted">CDN</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__poster c3"></div>
+            <div class="card__body">
+              <h3 class="card__title">Security Theatre</h3>
+              <p class="card__text">IAM policies… but make it fashion.</p>
+              <div class="card__meta">
+                <span class="badge">New</span>
+                <span class="badge badge--muted">IAM</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__poster c4"></div>
+            <div class="card__body">
+              <h3 class="card__title">The VPC</h3>
+              <p class="card__text">Nobody escapes the subnet, not even you.</p>
+              <div class="card__meta">
+                <span class="badge">Top 10</span>
+                <span class="badge badge--muted">Network</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="plans" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Pick a plan</h2>
+          <p class="section__hint">Pure CSS pricing cards.</p>
+        </div>
+
+        <div class="plans">
+          <div class="plan">
+            <div class="plan__head">
+              <h3 class="plan__title">Starter</h3>
+              <p class="plan__price">Free</p>
+            </div>
+            <ul class="plan__list">
+              <li>Static landing</li>
+              <li>1 region (in your imagination)</li>
+              <li>Basic styling</li>
+            </ul>
+            <button class="btn btn--ghost w100" type="button">Choose Starter</button>
+          </div>
+
+          <div class="plan plan--featured">
+            <div class="plan__tag">Most used</div>
+            <div class="plan__head">
+              <h3 class="plan__title">Pro</h3>
+              <p class="plan__price">R0*</p>
+            </div>
+            <ul class="plan__list">
+              <li>Hero + rows + grid</li>
+              <li>Looks expensive</li>
+              <li>Hosting-ready</li>
+            </ul>
+            <button class="btn btn--primary w100" type="button">Choose Pro</button>
+            <div class="plan__fine">*until the invoice says otherwise.</div>
+          </div>
+
+          <div class="plan">
+            <div class="plan__head">
+              <h3 class="plan__title">Ultra</h3>
+              <p class="plan__price">∞</p>
+            </div>
+            <ul class="plan__list">
+              <li>Unlimited content (not included)</li>
+              <li>Max drama</li>
+              <li>Peak vibes</li>
+            </ul>
+            <button class="btn btn--ghost w100" type="button">Choose Ultra</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <div class="brand brand--sm">
+          <span class="brand__dot"></span>
+          StreamFlix
+        </div>
+        <p class="footer__text">
+        </p>
+      </div>
+
+      <div class="footer__right">
+        <a class="footer__link" href="#">Terms</a>
+        <a class="footer__link" href="#">Privacy</a>
+        <a class="footer__link" href="#">Status</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
