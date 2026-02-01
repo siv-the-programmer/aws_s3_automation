@@ -33,6 +33,7 @@ No public S3 website endpoint. No public bucket. That’s the right way.
 
 ## Project structure
 
+```
 .
 ├── sites/
 │ ├── index.html
@@ -41,7 +42,7 @@ No public S3 website endpoint. No public bucket. That’s the right way.
 ├── s3_create.py
 ├── s3_host.py
 └── README.md
-
+```
 
 **Important:** `./sites/index.html` must exist or the deployer stops.
 
@@ -255,5 +256,6 @@ python3 s3_create.py
 python3 s3_host.py
 
 Put your site in ./sites/ and make sure ./sites/index.html exists.
+
 
 
