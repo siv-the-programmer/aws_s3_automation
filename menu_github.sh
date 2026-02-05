@@ -3,8 +3,6 @@ set -euo pipefail
 
 git_add() {
 
-  #!/bin/bash
-
 # Updated the script to add all files 
 
 # Created to automate git add, commit, pull, and push
