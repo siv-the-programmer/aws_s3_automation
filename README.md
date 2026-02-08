@@ -257,5 +257,9 @@ python3 s3_host.py
 
 Put your site in ./sites/ and make sure ./sites/index.html exists.
 
+<a href="https://buymeacoffee.com/sivariob" target="_blank" rel="noopener">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important; width: 217px !important;">
+</a>
+
 
 
