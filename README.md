@@ -38,7 +38,7 @@ No public S3 website endpoint. No public bucket. That’s the right way.
 ├── sites/
 │ ├── index.html
 │ ├── style.css
-│ └── (any other assets: js, images, etc)
+│ └── script.js
 ├── s3_create.py
 ├── s3_host.py
 └── README.md
